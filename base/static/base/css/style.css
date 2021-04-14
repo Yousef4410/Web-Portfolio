@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+
+body {
+    background-color: #EAECEE;
+    font-family: Ubuntu Mono;
+}
+
+.wrapper {
+    display: inline-flex;
+}
+
+.wrapper .static {
+    color: #772953;
+    font-size: 2.3em;
+}
+
+.wrapper .dynamic {
+    color: #7E5273;
+    font-size: 2.3em;
+    margin-left: 1em;
+    border-right: 0.8em solid #7E5273;
+    animation: typing 2s steps(21),
+            cursor 1s infinite step-end;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+@keyframes cursor {
+    0%, 100% {
+        border-color: #7E5273;
+    }
+    50%{
+        border-color: transparent;
+    }
+}
+
+@keyframes typing {
+    0% {
+        width: 0ch;
+    }
+    100% {
+        width: 21ch;
+    }
+}
+
+.dot {
+    margin-top: 4px;
+    height: 1em;
+    width: 1em;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.ubu-text {
+    color: #fff;
+    font-size: 1.75em;
+}
+
+.res-text {
+    color: #F29879;
+    font-size: 1.125em;
+}
+
+.follow-text {
+    font-size: 1.5em;
+    color: black;
+}
+
+a:link {
+    color: yellow;
+    text-decoration: none;
+}
+
+a:visited {
+    color: yellow;
+    text-decoration: none;
+}
+
+a:hover {
+    color: yellow;
+    text-decoration: none;
+}
+
+a:active {
+    color: yellow;
+    text-decoration: none;
+}

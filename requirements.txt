@@ -49,7 +49,6 @@ sqlparse==0.2.4
 systemd-python==234
 Twisted==17.9.0
 typing-extensions==3.7.4.3
-ufw==0.36
 unattended-upgrades==0.1
 urllib3==1.22
 whitenoise==5.2.0
